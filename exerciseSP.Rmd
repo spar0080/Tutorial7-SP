@@ -11,8 +11,7 @@ output:
     highlight: tango
 header-includes:
   - \usepackage{titling}
-  - \pretitle{\begin{center}
-  - \includegraphics[width=5in,height=13in]{Images/figure1,jpg}
+  - \pretitle{\begin{center} \includegraphics[width=5in,height=13in]{Images/figure1,jpg}
   - \posttitle{\end{center}}
   - \usepackage{fontawesome}
   - \usepackage[most]{tcolorbox}
@@ -21,3 +20,5 @@ header-includes:
   - \sectionfont{\color{olive}}
   - \usepackage{verbatim}
 ---
+
+# New section
